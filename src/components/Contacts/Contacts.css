@@ -1,0 +1,48 @@
+.contacts {
+  background: url("../../assets/smoke-bg1.png") #282c34;
+  background-position: 70% 70%;
+}
+
+.contacts-holder {
+  padding: 20px 250px;
+}
+
+.contacts-title {
+  font-family: Roboto;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.map-holder {
+  margin-bottom: 30px;
+}
+
+.paragraph-holder,
+.tele {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 2rem;
+}
+
+.tele {
+  margin-bottom: 0;
+}
+
+.schedule {
+  font-family: Roboto;
+  font-size: 28px;
+  color: crimson;
+}
+
+.contact-number {
+  color: #e7e7e7;
+}
+.contact-number:hover {
+  color: crimson;
+}
+
+/*# sourceMappingURL=RulesOfDelivery.css.map */

@@ -1,0 +1,9 @@
+{
+  "/api/v1/*": "/$1",
+  "/products/:category/:brand/:puffsCount": "/products?category=:category&brand=:brand&puffsCount=:puffsCount",
+  "/products/:category/:brand/:packSize": "/products?category=:category&brand=:brand&packSize=:packSize",
+  "/products/:category/:brand": "/products?category=:category&brand=:brand",
+  "/products/:category": "/products?category=:category",
+  "/product/:id": "/product?id=:id",
+  "/feedback": "/feedback"
+}

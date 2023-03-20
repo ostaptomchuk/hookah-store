@@ -1,0 +1,89 @@
+.header-top {
+  background-color: #0f0e0e;
+}
+
+.header-top-holder {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.telephone {
+  font-family: Montserrat;
+  color: #e7e7e7;
+  &:hover {
+    color: crimson;
+  }
+}
+
+.icon-phone {
+  &:before {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+}
+
+.shopping-cart {
+  cursor: pointer;
+  font-family: Montserrat;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  color: #e7e7e7;
+  &:hover {
+    color: crimson;
+  }
+}
+
+.icon-shopping-cart {
+  &:before {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+}
+
+.header-bottom {
+  background-color: #171b1d;
+}
+
+.container {
+  max-width: 1440px;
+}
+
+.header-bottom-holder {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-holder {
+  width: 70px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.menu-item {
+  font-size: 20px;
+  font-family: Montserrat;
+
+}
+
+.item-link {
+  transition: all 0.2s ease-out;
+  color: crimson;
+
+  &:hover {
+    color: antiquewhite;
+  }
+
+  &:active {
+    color: coral;
+  }
+}
+
+

@@ -1,0 +1,98 @@
+.item-holder {
+  padding: 30px;
+  //background-color: #f7d50e;
+  //background-color: #f3e7b4;
+  background-color: #ffffff;
+  border-radius: 20px;
+  min-height: 540px;
+}
+
+.item-img-holder {
+  max-width: 300px;
+  margin-bottom: 40px;
+}
+
+.item-description {
+  text-align: left;
+}
+
+.item-title {
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 2rem;
+  margin-bottom: 20px;
+}
+
+.specs-title {
+  display: block;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.spec-item {
+  font-size: 18px;
+  display: block;
+  font-family: Montserrat;
+}
+
+.item-specs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.item-price {
+  font-size: 24px;
+  font-family: Roboto;
+  font-weight: 700;
+  color: crimson;
+}
+
+.yes-availible,
+.no-availible {
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+.yes-availible {
+  color: #449fdb;
+}
+
+.no-availible {
+  color: #5c0606;
+}
+
+.buy-btn,
+.buy-btn-disabled {
+  height: 40px;
+  width: 100px;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+  font-family: Roboto;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.buy-btn {
+  background-color: crimson;
+
+  &:hover {
+    background-color: rgba(220, 20, 60, 0.78);
+  }
+}
+
+.buy-btn-disabled {
+  cursor: not-allowed;
+  text-decoration: #5c0606 line-through 2px;
+  background-color: #7b7a7a;
+}
+
+.icon-location-shopping {
+  //margin-right: 10px;
+}

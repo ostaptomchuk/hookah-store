@@ -1,0 +1,52 @@
+.footer {
+  background-color: #282c34;
+  padding: 50px 0;
+}
+
+.upper-holder{
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 400px;
+  border-bottom: 2px #e7e7e7 solid;
+  margin-bottom: 20px;
+}
+
+.footer-logo-holder {
+  max-width: 70px;
+}
+
+.social-items {
+  cursor: pointer;
+  list-style-type: none;
+  font-family: Montserrat;
+  font-size: 20px;
+  color: #fff;
+}
+
+.social-link {
+  color: #fff;
+}
+
+.social-item {
+  margin-bottom: 10px;
+  &:hover {
+    .icon {
+      color: crimson;
+    }
+  }
+}
+
+.icon {
+  margin-right: 10px;
+  vertical-align: bottom;
+  color: #ffffff;
+}
+
+.copyright {
+  display: block;
+  font-size: 18px;
+  color: #e7e7e7;
+  font-family: Montserrat;
+}

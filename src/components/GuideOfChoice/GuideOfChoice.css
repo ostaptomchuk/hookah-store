@@ -1,0 +1,26 @@
+.guide {
+  background: url("../../assets/smoke-bg1.png") #282c34;
+  background-position: 70% 70%;
+}
+
+.guide-holder {
+  padding: 100px 250px;
+}
+
+.guide-title {
+  font-family: Roboto;
+  font-size: 28px;
+  color: crimson;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.paragraph-holder {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 2rem;
+}
+
+/*# sourceMappingURL=GuideOfChoice.css.map */

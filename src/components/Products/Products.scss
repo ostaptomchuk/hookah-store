@@ -1,0 +1,64 @@
+.products {
+  background: url("./../../assets/smoke-bg1.png") #282c34;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.category-title {
+  font-family: Roboto;
+  padding-top: 20px;
+  font-size: 34px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.products-holder {
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+}
+
+.filters {
+  height: 600px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 50px 20px;
+  top: 20px;
+  position: sticky;
+}
+
+.filter-title {
+  position: sticky;
+  top: 10px;
+}
+
+.products-cards-holder {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.categories-holder {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.block {
+  padding: 30px;
+}
+
+.category-link {
+  font-family: Roboto;
+  font-size: 24px;
+  color: crimson;
+}
+

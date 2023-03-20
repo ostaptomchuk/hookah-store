@@ -1,0 +1,37 @@
+.delivery {
+  background: url("../../assets/smoke-bg1.png") #282c34;
+  background-position: 30% 50%;
+}
+
+.delivery-holder{
+  padding: 20px 250px;
+}
+
+.delivery-title {
+  font-family: Roboto;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.delivery-subt-title {
+  font-family: Roboto;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.delivery-list {
+  list-style-type: disc;
+  .delivery-list-item {
+    &::marker {
+      color: crimson;
+    }
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
+

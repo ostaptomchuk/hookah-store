@@ -1,0 +1,31 @@
+.swiper {
+  max-width: 560px;
+  max-height: 250px;
+  border-radius: 20px;
+  box-shadow: 0 0 70px #000;
+}
+@media screen and (min-width: 1024px) {
+  .swiper {
+    max-width: 980px;
+    max-height: 450px;
+    border-radius: 20px;
+  }
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=Slider.css.map */
